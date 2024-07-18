@@ -30,7 +30,8 @@ html {
 .tic .xo {
     color: white;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
+    font-style: italic;
 }
 .tic .xo .box {
     display: grid;
@@ -38,10 +39,12 @@ html {
     gap: 20px;
     color: white;
     text-align: center;
+    font-style: normal;
 }
 .tic .xo .box li {
     background-color: purple;
     color: white;
+    border: 2px solid white;
     font-size: 30px;
     height: 100px;
     display: flex;
