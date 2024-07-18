@@ -1,0 +1,71 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #cb95c7;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.tic {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.tic h1 {
+    text-align: center;
+    color: purple;
+    font-size: 40px;
+}
+.tic .xo {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.tic .xo .box {
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap: 20px;
+    color: white;
+    text-align: center;
+}
+.tic .xo .box li {
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.tic .xo span {
+    margin-top: 40px !important;
+    display: inline-block;
+}
+.tic .restart {
+    width: 340px;
+    border: none;
+    border: 2px solid purple;
+    background-color: white;
+    padding: 10px 0;
+    font-size: 22px;
+    color: #cb95c7;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+.tic .restart:hover {
+    color: purple;
+}
